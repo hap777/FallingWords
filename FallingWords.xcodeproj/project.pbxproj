@@ -13,9 +13,6 @@
 		473F3FA127EC77E100D94797 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 473F3F9F27EC77E100D94797 /* Main.storyboard */; };
 		473F3FA327EC77E200D94797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 473F3FA227EC77E200D94797 /* Assets.xcassets */; };
 		473F3FA627EC77E200D94797 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 473F3FA427EC77E200D94797 /* LaunchScreen.storyboard */; };
-		473F3FB127EC77E200D94797 /* FallingWordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473F3FB027EC77E200D94797 /* FallingWordsTests.swift */; };
-		473F3FBB27EC77E200D94797 /* FallingWordsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473F3FBA27EC77E200D94797 /* FallingWordsUITests.swift */; };
-		473F3FBD27EC77E200D94797 /* FallingWordsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473F3FBC27EC77E200D94797 /* FallingWordsUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +42,7 @@
 		473F3FA527EC77E200D94797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		473F3FA727EC77E200D94797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		473F3FAC27EC77E200D94797 /* FallingWordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FallingWordsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		473F3FB027EC77E200D94797 /* FallingWordsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingWordsTests.swift; sourceTree = "<group>"; };
 		473F3FB627EC77E200D94797 /* FallingWordsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FallingWordsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		473F3FBA27EC77E200D94797 /* FallingWordsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingWordsUITests.swift; sourceTree = "<group>"; };
-		473F3FBC27EC77E200D94797 /* FallingWordsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingWordsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +75,6 @@
 			children = (
 				473F3F9827EC77E100D94797 /* FallingWords */,
 				473F3FAF27EC77E200D94797 /* FallingWordsTests */,
-				473F3FB927EC77E200D94797 /* FallingWordsUITests */,
 				473F3F9727EC77E100D94797 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,18 +106,13 @@
 		473F3FAF27EC77E200D94797 /* FallingWordsTests */ = {
 			isa = PBXGroup;
 			children = (
-				473F3FB027EC77E200D94797 /* FallingWordsTests.swift */,
 			);
 			path = FallingWordsTests;
 			sourceTree = "<group>";
 		};
-		473F3FB927EC77E200D94797 /* FallingWordsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				473F3FBA27EC77E200D94797 /* FallingWordsUITests.swift */,
-				473F3FBC27EC77E200D94797 /* FallingWordsUITestsLaunchTests.swift */,
 			);
-			path = FallingWordsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +256,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				473F3FB127EC77E200D94797 /* FallingWordsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +263,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				473F3FBD27EC77E200D94797 /* FallingWordsUITestsLaunchTests.swift in Sources */,
-				473F3FBB27EC77E200D94797 /* FallingWordsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
