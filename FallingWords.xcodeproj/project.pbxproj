@@ -15,6 +15,7 @@
 		473F3FA627EC77E200D94797 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 473F3FA427EC77E200D94797 /* LaunchScreen.storyboard */; };
 		473F3FCF27EC79F200D94797 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473F3FCE27EC79F200D94797 /* Word.swift */; };
 		473F3FD227EC7A4300D94797 /* words.json in Resources */ = {isa = PBXBuildFile; fileRef = 473F3FD127EC7A4300D94797 /* words.json */; };
+		473F3FD427ECCAD000D94797 /* WordsRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473F3FD327ECCAD000D94797 /* WordsRepo.swift */; };
 		47BE58A327EE0A460075FA86 /* words.json in Resources */ = {isa = PBXBuildFile; fileRef = 47BE58A227EE0A460075FA86 /* words.json */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		473F3FB627EC77E200D94797 /* FallingWordsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FallingWordsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		473F3FCE27EC79F200D94797 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 		473F3FD127EC7A4300D94797 /* words.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = words.json; sourceTree = "<group>"; };
+		473F3FD327ECCAD000D94797 /* WordsRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsRepo.swift; sourceTree = "<group>"; };
 		47BE58A227EE0A460075FA86 /* words.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = words.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		472A95D027EDBB400096726B /* GameRepo */ = {
+			isa = PBXGroup;
+			children = (
+				473F3FD327ECCAD000D94797 /* WordsRepo.swift */,
+			);
+			path = GameRepo;
+			sourceTree = "<group>";
+		};
 		473F3F8D27EC77E100D94797 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +111,7 @@
 				473F3F9927EC77E100D94797 /* AppDelegate.swift */,
 				473F3F9B27EC77E100D94797 /* SceneDelegate.swift */,
 				473F3FC927EC79C400D94797 /* Game */,
+				472A95D027EDBB400096726B /* GameRepo */,
 				473F3FD027EC79FD00D94797 /* Resources */,
 				473F3F9D27EC77E100D94797 /* ViewController.swift */,
 				473F3F9F27EC77E100D94797 /* Main.storyboard */,
@@ -271,6 +282,7 @@
 				473F3F9E27EC77E100D94797 /* ViewController.swift in Sources */,
 				473F3F9A27EC77E100D94797 /* AppDelegate.swift in Sources */,
 				473F3F9C27EC77E100D94797 /* SceneDelegate.swift in Sources */,
+				473F3FD427ECCAD000D94797 /* WordsRepo.swift in Sources */,
 				473F3FCF27EC79F200D94797 /* Word.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
