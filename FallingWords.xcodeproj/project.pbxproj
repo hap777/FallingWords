@@ -16,6 +16,7 @@
 		473F3FA127EC77E100D94797 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 473F3F9F27EC77E100D94797 /* Main.storyboard */; };
 		473F3FA327EC77E200D94797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 473F3FA227EC77E200D94797 /* Assets.xcassets */; };
 		473F3FA627EC77E200D94797 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 473F3FA427EC77E200D94797 /* LaunchScreen.storyboard */; };
+		473F3FCB27EC79DD00D94797 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473F3FCA27EC79DD00D94797 /* GameViewController.swift */; };
 		473F3FCD27EC79E900D94797 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473F3FCC27EC79E900D94797 /* GameViewModel.swift */; };
 		473F3FCF27EC79F200D94797 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473F3FCE27EC79F200D94797 /* Word.swift */; };
 		473F3FD227EC7A4300D94797 /* words.json in Resources */ = {isa = PBXBuildFile; fileRef = 473F3FD127EC7A4300D94797 /* words.json */; };
@@ -54,6 +55,7 @@
 		473F3FA727EC77E200D94797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		473F3FAC27EC77E200D94797 /* FallingWordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FallingWordsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		473F3FB627EC77E200D94797 /* FallingWordsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FallingWordsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		473F3FCA27EC79DD00D94797 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		473F3FCC27EC79E900D94797 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		473F3FCE27EC79F200D94797 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 		473F3FD127EC7A4300D94797 /* words.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = words.json; sourceTree = "<group>"; };
@@ -124,8 +126,8 @@
 				473F3F9D27EC77E100D94797 /* ViewController.swift */,
 				472A95CE27EDA8AC0096726B /* Extensions.swift */,
 				473F3F9F27EC77E100D94797 /* Main.storyboard */,
-				473F3FA227EC77E200D94797 /* Assets.xcassets */,
 				473F3FA427EC77E200D94797 /* LaunchScreen.storyboard */,
+				473F3FA227EC77E200D94797 /* Assets.xcassets */,
 				473F3FA727EC77E200D94797 /* Info.plist */,
 			);
 			path = FallingWords;
@@ -144,6 +146,7 @@
 		473F3FC927EC79C400D94797 /* Game */ = {
 			isa = PBXGroup;
 			children = (
+				473F3FCA27EC79DD00D94797 /* GameViewController.swift */,
 				473F3FCC27EC79E900D94797 /* GameViewModel.swift */,
 				473F3FCE27EC79F200D94797 /* Word.swift */,
 			);
@@ -291,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				473F3FCB27EC79DD00D94797 /* GameViewController.swift in Sources */,
 				473F3F9E27EC77E100D94797 /* ViewController.swift in Sources */,
 				473F3F9A27EC77E100D94797 /* AppDelegate.swift in Sources */,
 				472A95CF27EDA8AC0096726B /* Extensions.swift in Sources */,
