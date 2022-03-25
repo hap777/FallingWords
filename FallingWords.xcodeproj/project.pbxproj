@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		472A95CF27EDA8AC0096726B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472A95CE27EDA8AC0096726B /* Extensions.swift */; };
 		472A95D227EDBBA50096726B /* GameViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472A95D127EDBBA50096726B /* GameViewModelTests.swift */; };
 		472A95D427EDBBE00096726B /* GameRepoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472A95D327EDBBE00096726B /* GameRepoTests.swift */; };
 		473F3F9A27EC77E100D94797 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473F3F9927EC77E100D94797 /* AppDelegate.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		472A95CE27EDA8AC0096726B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		472A95D127EDBBA50096726B /* GameViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModelTests.swift; sourceTree = "<group>"; };
 		472A95D327EDBBE00096726B /* GameRepoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRepoTests.swift; sourceTree = "<group>"; };
 		473F3F9627EC77E100D94797 /* FallingWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FallingWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +122,7 @@
 				472A95D027EDBB400096726B /* GameRepo */,
 				473F3FD027EC79FD00D94797 /* Resources */,
 				473F3F9D27EC77E100D94797 /* ViewController.swift */,
+				472A95CE27EDA8AC0096726B /* Extensions.swift */,
 				473F3F9F27EC77E100D94797 /* Main.storyboard */,
 				473F3FA227EC77E200D94797 /* Assets.xcassets */,
 				473F3FA427EC77E200D94797 /* LaunchScreen.storyboard */,
@@ -290,6 +293,7 @@
 			files = (
 				473F3F9E27EC77E100D94797 /* ViewController.swift in Sources */,
 				473F3F9A27EC77E100D94797 /* AppDelegate.swift in Sources */,
+				472A95CF27EDA8AC0096726B /* Extensions.swift in Sources */,
 				473F3FCD27EC79E900D94797 /* GameViewModel.swift in Sources */,
 				473F3F9C27EC77E100D94797 /* SceneDelegate.swift in Sources */,
 				473F3FD427ECCAD000D94797 /* WordsRepo.swift in Sources */,
